@@ -1,0 +1,22 @@
+body{
+    background: url('../image/Untitled.png');
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.25); /* Cor de fundo com transparência */
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+}
+
+.float-navbar{
+    border-radius: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    position: absolute;
+    top: 5px;
+
+}
+
+#searchNav{
+    margin-left: 40vw;
+}
+
