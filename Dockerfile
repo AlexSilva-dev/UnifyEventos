@@ -9,8 +9,8 @@ WORKDIR /app
 COPY UnifyEventos /app/UnifyEventos
 
 # Exponha a porta que a aplicação Spring Boot utiliza
-EXPOSE 8081
+EXPOSE 8080
 
 # Comando para executar a aplicação Spring Boot com o hot reload
 # Use the gradle command to build and run the application
-CMD cd /app/UnifyEventos && ./gradle bootRun
+CMD cd /app/UnifyEventos && ./gradlew bootRun
