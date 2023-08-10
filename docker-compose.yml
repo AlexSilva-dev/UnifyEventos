@@ -1,0 +1,8 @@
+version: '3'
+services:
+  unifyeventos:
+    build:
+      context: . # Caminho para o diretório onde está o Dockerfile
+      dockerfile: dockerfile # Nome do arquivo Dockerfile
+    ports:
+      - "8081:8081" # Mapeamento da porta do host para a porta do contêiner
