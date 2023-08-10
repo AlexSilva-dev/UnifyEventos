@@ -13,4 +13,4 @@ EXPOSE 8081
 
 # Comando para executar a aplicação Spring Boot com o hot reload
 # Use the gradle command to build and run the application
-CMD cd /app/UnifyEventos && gradle bootRun
+CMD cd /app/UnifyEventos && ./gradle bootRun
