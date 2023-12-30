@@ -11,7 +11,9 @@
         <img src="../assets/logo.svg"
         alt="Logo" width="30" height="24"
         class="d-inline-block align-text-top">
-        UnifyEventos
+        <span class="d-sm-none d-md-inline">
+          UnifyEventos
+        </span>
       </RouterLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,18 +24,18 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/home">Eventos</RouterLink>
+              <RouterLink class="nav-link" to="/">Eventos</RouterLink>
             </li>
 
             <li class="nav-item dropdown">
-              <RouterLink class="nav-link text-nowrap" to="/home">
+              <RouterLink class="nav-link text-nowrap" to="/">
                 Sobre nós
               </RouterLink>
             </li>
           </ul>
 
         </div>
-       
+
         <div class="col col-3">
           <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">

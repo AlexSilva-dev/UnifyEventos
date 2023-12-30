@@ -1,15 +1,15 @@
 <script setup>
-import Card from '../components/Card.vue'
+import Banner from '../components/event/Banner.vue'
 </script>
 
 <template>
-  <main>
-    <div class="row mb-5">
-      <Card/>
-    </div>
+  <main class="container">
+    
+    <Banner>
+    </Banner>
 
     <div class="row mb-5">
-      <Card/>
+        kk
     </div>
   </main>
 </template>

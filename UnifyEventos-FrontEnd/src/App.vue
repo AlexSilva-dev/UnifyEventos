@@ -12,17 +12,19 @@ import TheNavBar from './components/TheNavBar.vue';
     </div>
   </header>
 
-  <div class="row">
+  <div class="container">
 
-    <div class="col">
+    <div class="row justify-content-center">
+      <div class="col d-sm-none d-none">
+        </div>
+
+        <RouterView class="col-11 col-md-8"/>
+
+        <div class="col d-sm-none d-none">
+        </div>
+
+      </div>
     </div>
-
-    <RouterView class="col-7"/>
-
-    <div class="col">
-    </div>
-
-  </div>
 
 </template>
 
