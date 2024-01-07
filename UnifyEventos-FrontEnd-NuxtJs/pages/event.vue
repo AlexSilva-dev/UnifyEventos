@@ -4,15 +4,14 @@ import Banner from '../components/event/Banner.vue'
 </script>
 
 <template>
-  <main class="container">
-    
+  <div class="container m-0 p-0 mt-5 pt-4">
     <Banner>
     </Banner>
 
     <div class="row mb-5">
         kk
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -20,7 +19,6 @@ import Banner from '../components/event/Banner.vue'
     export default {
       mounted() {
         console.log('jflashfldfj')
-          console.log('oii', this.$emit('shouldShowNav', false), { broadcast: true });
       }
     }
 </script>

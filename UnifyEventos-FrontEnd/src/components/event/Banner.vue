@@ -1,6 +1,6 @@
 <template>
     <div class="banner rounded-bottom-5
-    justify-content-center">
+    justify-content-center readable-blur">
         <div >
             <img id="banner-img"
             class="img-fluid"
@@ -10,12 +10,14 @@
     </div>
 </template>
 
+
+
 <style>
     #banner-img {
         width: 100vw;
     }
     .banner {
-        background-color: gray;
+        background-color: rgba(255, 255, 255, 0.088);
         height: 100%;
         width: 100vw
     }

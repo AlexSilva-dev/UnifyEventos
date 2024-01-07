@@ -28,10 +28,8 @@ import TheNavBar from './components/TheNavBar.vue';
 
 </template>
 
+
 <style scoped>
-header {
-  margin-bottom: 90px;
-}
 
 
 </style>

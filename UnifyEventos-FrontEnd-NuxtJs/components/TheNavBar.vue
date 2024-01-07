@@ -1,12 +1,10 @@
 <script setup>
-import { EventBus } from './ConfLayoutBus.vue';
 </script>
 
 <template>
   <nav id="navbar" class="navbar navbar-expand-sm
   fixed-top rounded-4 m-1"
-  data-bs-theme="dark"
-  :if="showNavBar">
+  data-bs-theme="dark">
     <div class="container-fluid">
       <RouterLink class="navbar-brand" to="/">
         <img src="../assets/logo.svg"
@@ -61,22 +59,6 @@ import { EventBus } from './ConfLayoutBus.vue';
 </template>
 
 
-<script>
-export default {
-  data() {
-    return {
-      showNavBar: false,
-    };
-  },
-
-  mounted() {
-    EventBus.$on('shouldShowNav', (message) => {
-      console.log('Evento recebido:', message);
-      // Faça algo com a mensagem recebida, se necessário
-    });
-  }
-}
-</script>
 <style scoped>
 
 

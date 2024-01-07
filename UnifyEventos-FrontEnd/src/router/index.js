@@ -8,6 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'events',
       component: homeView,
+      navbar: true
     },
 
     {
